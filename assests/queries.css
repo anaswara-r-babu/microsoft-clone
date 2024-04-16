@@ -383,15 +383,327 @@
     }
 }
 
-@media only screen and (min-width:427px) and (max-width:769){
+@media only screen and (min-width:427px) and (max-width:769px){
+
+    header{height: 80vh;}
+    .no-display{
+        display: none;
+    }
+
+    .ms-logo-div{
+        position: relative;
+        left: 30%;
+        width: 50%;
+       
+    }
+    #mslogo{
+        margin: 15px 5px 5px 0px;
+        width: 100%;
+        height: 40%;
+    }
+    #sub-link1{position: absolute; top: 20px; left: 70px;}
+    #sub-link2{position: absolute; top: 20px; left: 80%;}
+    #sub-link3{position: absolute; top: 20px; left: 90%;}
+    select{display: none;}
 
 
+    .section-head{
+        width: 100%;
+        height: 40vh;
+        margin: 5% 6% 5% 6%;
+        position: relative;
+        top: 10%;
+        display:grid;
+    }
+    .section-head .owl-theme .item {
+        height: 40vh;
+        width: 100vw; /* vw = viwe width */
+        background-color: #fff;
+    }
+    
+    .section-head .owl-theme .item-one{
+        width: 90vw;
+        height: 40vh;
+    }
+    
+    .section-head .owl-theme .item-two{
+        width: 90vw;
+        height: 40vh;
+    }
+    .owl-theme{width: 90vw;}
 
+    .owl-carousel img{
+        height: 25vh;
+    }
+    #scroll-img1{
+        width: 90vw;
+    }
+    .slider-desc{
+        width: 100%;
+        height: 20vh;
+        position:absolute;
+        top: 30%;
+        z-index: 1;
+        padding-left: 2%;
+    }
+    .srl-text{
+        position: relative;
+        top: 60%;
+        font-size: 20px;
+        font-weight:500;
+        padding: 0 2% 2% 8%;
+    }
+    .srl-para{
+        margin: 20% 2% 0 0;
+        font-size: 17px;
+    }
+    .srl-btn1{
+        margin: 0 2% 2% 8%;
+        width: 70%;
+        height: 15%;
+        border: none;
+        color: #fff;
+        font-weight: 550;
+        font-size: 16px;
+        background-color: #0067b8;
+    }
+    .slider-desc2{
+        width: 100%;
+        height: 20vh;
+        position:absolute;
+        top: 30%;
+        left:0;
+        z-index: 1;
+        padding-left: 0;
+        font-size: 13px;
+    }
+    .logo-parent{
+        display:flex;
+        flex-wrap: wrap;
+        column-gap: 8px;
+        width: 95%;
+        height: 30%;
+        position: relative;
+        top: 10%;
+        margin:15% 3% 3% 3%;
+    }
+    .logo-header{width: 46%;}
+    .section-2{height: 1600px; margin-top: 10%;}
+    .container-parent{
+        display: flex;
+        padding: 5% 5% 6% 6%;
+        height: 65%;
+        overflow: hidden;
+    }
+    .items{
+        margin-top: 10px;
+        width: 46%;
+        height: 45%;
+        box-shadow: .35px .35px 1px;
+    }
+    .btn-1{margin: 25% 2% 2% 8%;}
+    .btn-2{margin: 5% 2% 2% 8%;}
+    .btn-3{margin: 50% 2% 2% 8%;}
+
+    .sec2-last-btn{margin: 2% 2% 2% 8%;}
+    .large-img-div{
+        width: auto;
+        height: 30%;
+        margin: 10% 5% 5% 6%;
+    }
+    .large-img-div img{width: 100%; height: 50%;}
+    .large-img-desc h2{margin-top: -10%;padding:0;}
+    .large-para{margin-top: 2%; padding: 0 0 3% 0;}
+    .large-img-desc{
+        position: relative;
+        top: 10%;
+        left: 0%;
+        width: 60%;
+        height: 20%;
+    }
+    .btn-3-ghost{
+        width: 55%;
+        height: 30%;
+    }
+    .section-3{height: 110vh; margin-top:5%;}
+    .sec3-contanier{
+        height: 90%;
+        margin-top: 0;}
+    .sec3-child{
+        width: 47%;
+        height: 45%;
+        margin-top: 5px;
+    }
+    .sec3-child .items-imgs{height: 30%;}
+
+    .sec3-btn1{margin: 7% 2% 2% 8%;}
+    .sec3-btn2{margin: 4% 2% 2% 8%;}
+    .sec3-btn3{margin: 3% 2% 2% 8%;}
+    .sec3-last-btn{margin: 8% 2% 2% 8%; width: 60%;}
+    .logo-link-div{margin: -5% 2% 2% 6%; height: 40px; width: 50%; }
+    .socials {margin: -7% 0% 2% 1%; width: 55%;}
+
+    footer{ height: 100vh; margin-bottom: 0;}
+    .footer-container{
+        display:flex;
+        flex-wrap: wrap;
+        width:fit-content;
+    }
+    .footer-sub-div{
+        margin-top: 20px;
+        width: 31%;
+    }
+    .bottom-link-parent{
+        display: block;
+        column-gap: 10%;
+        width: 100%;
+        height: 10%;
+    }
+    .bottom-link-child1{
+        width: 50%;
+        display: block;
+        column-gap: 5px;
+        margin: 0 0 0 14px;
+    }
+    .btm-link-img-div{
+        text-align: justify;
+        width: 80%;
+        height: 20%;
+        margin-top: 15px;
+    }
+    .btm-desc1{width: 70%;padding-left: 17px;}
+    .btm-desc2{margin-left:0; padding-left: 25px;}
+    .btm-desc3{width: 90%; padding-left: 25px;}
+    .bottom-link-child2{
+        display: inline;
+        float: left;
+        width: 90%;
+        margin: 30px 0 0 35px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1025px){
+    .ms-logo-div{
+        position: relative;
+        left: -8%;
+        width: 50%;
+       
+    }
+    .sub-nav1{width:80%;margin-left: -13%;}
+    .nav-2{width: 40%; height: 70%; margin-left: 15%;}
+    #sub-link1{position: absolute; top: 20px; left: 85%;}
+    #sub-link2{position: absolute; top: 20px; left: 90%;}
+    #sub-link3{position: absolute; top: 20px; left: 95%;}
+    .select-box{
+        position: absolute;
+        top: 20%;
+        right: 18%;
+        width: 10%;
+    }
+    .logo-parent{
+        margin: 4% 20% 2% 10%;
+        width: 80%;
+    }
+    .logo-header{
+        width: 40%;
+    }
+    .section-2{height: 1600px; margin-top: 5%;}
+    .container-parent{
+        display: flex;
+        padding: 5% 5% 6% 6%;
+        height: 80%;}
+
+    .items{margin-top: 5%; width: 45%; height: 37%;}
+    .btn-1{margin: 10% 2% 2% 8%;}
+    .btn-2{margin: 10% 2% 2% 8%;}
+    .btn-3{margin: 25% 2% 2% 8%;}
+    .large-img-div{
+        width: auto;
+        height: 35%;
+        margin: -10% 5% 5% 6%;
+    }
+    .large-img-div img{width: 100%; height: 50%;}
+    .large-img-desc h2{margin-top: -10%;padding:0;}
+    .large-para{margin-top: 2%; padding: 0 0 3% 0;}
+    .large-img-desc{
+        position: relative;
+        top: 10%;
+        left: 0%;
+        width: 60%;
+        height: 20%;
+    }
+    .btn-3-ghost{
+        width: 55%;
+        height: 30%;
+    }
+    .section-3{height: 110vh; margin-top:5%;}
+    .sec3-contanier{
+        height: 90%;
+        margin-top: 0;}
+    .sec3-child{
+        width: 47%;
+        height: 45%;
+        margin-top: 5px;
+    }
+    .sec3-child .items-imgs{height: 30%;}
+    .sec3-btn1{margin: 7% 2% 2% 8%;}
+    .sec3-btn2{margin: 4% 2% 2% 8%;}
+    .sec3-btn3{margin: 3% 2% 2% 8%;}
+    .sec3-last-btn{margin: 8% 2% 2% 8%; width: 60%;}
+
+    .logo-link-div{margin: -5% 2% 2% 6%; height: 40px; width: 50%; }
+    .socials {margin: -5% 0% 2% 1%; width: 70%;}
+    footer{ height: 95vh; margin-bottom: 0;}
+    .footer-container{
+        display:flex;
+        flex-wrap: wrap;
+        width:fit-content;
+    }
+    .footer-sub-div{
+        margin-top: 20px;
+        width: 31%;
+    }
+    .bottom-link-parent{
+        display: block;
+        column-gap: 10%;
+        width: 100%;
+        height: 10%;
+    }
+    .bottom-link-child1{
+        width: 50%;
+        display: block;
+        column-gap: 5px;
+        margin: 0 0 0 14px;
+    }
+    .btm-link-img-div{
+        text-align: justify;
+        width: 80%;
+        height: 20%;
+        margin-top: 15px;
+    }
+    .btm-desc1{width: 70%;padding-left:38px;}
+    .btm-desc2{margin-left:0; padding-left: 42px;}
+    .btm-desc3{width: 90%; padding-left: 44px;}
+    .bottom-link-child2{
+        display: inline;
+        float: left;
+        width: 90%;
+        margin: 30px 0 0 50px;
+    }
 
 
 }
 
 
+
+
+
+
+
+
+
+
+    
 
 
 
