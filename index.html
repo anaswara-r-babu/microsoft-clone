@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microsoft</title>
-    <link rel="stylesheet" href="assests\style.css">
+    
     <link rel="stylesheet" href="assests\vendors\owl.carousel.min.css">
     <link rel="stylesheet" href="assests\vendors\owl.theme.default.min.css">
+    <script src="assests\vendors\jquery.min.js"></script>
+    <script src="assests\vendors\owl.carousel.js"></script>
+   
+    <link rel="stylesheet" href="assests\style.css">
+    <link rel="stylesheet" href="assests\queries.css">
 
 </head>
 <body>
@@ -53,16 +58,23 @@
                 </div>
         </nav>
 
-        <div class="container">
-            <div id="slider" class="owl-carousel owl-theme">
-                <!--<div class="description">
-
-                </div>-->
-                <div class="item">
-                    <h1>item1</h1>
+        <div class="section-head">
+            <div class="owl-carousel owl-theme">
+                <div class="item item-one">
+                    <img id="scroll-img1" src="assests\imgs\img1.avif" alt="">
+                    <div class="slider-desc">
+                        <h2 class="srl-text">Unlock your potential with <br>Microsoft Copilot</h2>
+                        <p class="srl-para para">Get things done faster and unleash your creativity with the power of AI anywhere you go.</p>
+                        <button class="srl-btn1">Download the Copilot app</button>
+                    </div>
                 </div>
-                <div class="item">
-                    <h2>item2</h2>
+                <div class="item item-two">
+                  <img src="assests\imgs\img2.avif" alt="">  
+                  <div class="slider-desc2">
+                    <h2 class="srl-text">Surface Pro 9</h2>
+                    <p class="srl-para para">Tablet versatality and laptop power &mdash; all in one ultra portable device.</p>
+                    <button class="srl-btn1">Learn more</button>
+                </div>
                 </div>
             </div>
         </div>
@@ -74,15 +86,15 @@
                 <h4 class="link-text">Choose your Microsoft 365</h4></a>
             </div>
             <a href="#"><div class="logo-header">
-                <img class="small-logo" src="assests\imgs\Link-List-Icons-Xbox-Games-Consoles.svg" alt="">
+                <img id="small-logo2" class="small-logo" src="assests\imgs\Link-List-Icons-Xbox-Games-Consoles.svg" alt="">
                 <h4 class="link-text">Shop Xbox</h4></a>
             </div>
-            <a href="#"><div class="logo-header">
-                <img class="small-logo" src="assests\imgs\Link-List-Icons-Microsoft-365.svg" alt="">
+            <a href="#"><div id="link-item3" class="logo-header">
+                <img id="small-logo3" class="small-logo" src="assests\imgs\Link-List-Icons-Microsoft-365.svg" alt="">
                 <h4 class="link-text">Get Windows 11</h4></a>
             </div>
-            <a href="#"><div class="logo-header">
-                <img class="small-logo" src="assests\imgs\Link-List-Icons-Surface-Devices.svg" alt="">
+            <a href="#"><div id="link-item4" class="logo-header">
+                <img id="small-logo4" class="small-logo" src="assests\imgs\Link-List-Icons-Surface-Devices.svg" alt="">
                 <h4 class="link-text">Explore Surface devices</h4></a>
             </div>
         </div>
@@ -97,7 +109,7 @@
                 <h2 class="h2-class">Surface Laptop 5</h2>
                 <p class="para">Sophisticated style and multitasking speed powered by 12th Gen Intel &reg;  Core, with
                     Windows 11.</p>
-                <button class="sec2-btn">Learn more</button>
+                <button class="btn-1 sec2-btn">Learn more</button>
             </div>
 
             <div class="items">
@@ -158,7 +170,7 @@
                 <button class="sec3-btn2 sec3-btn">Sign up for free</button>
             </div>
 
-            <div class="items sec3-child">
+            <div id="sec3-child3" class="items sec3-child">
                 <div class="items-imgs"> <img class="sec2-imgs" src="assests\imgs\img2-3.jpeg" alt=""></div>
                 <h2 class="h2-class">Windows 11 for business</h2>
                 <p class="para">Designed for hybrid work. <br>Powerful for employees. <br>Consistent for IT. Secure for all.</p>
@@ -283,7 +295,7 @@
                     <h4 class="btm-link-text">Your Privacy choices</h4></a>
                     </div>
 
-                    <div class="btm-link-img-div">
+                    <div class="btm-desc3 btm-link-img-div">
                        <a href="#"><h4 class="btm-link-text">consumer Health Privacy</h4></a> 
                     </div>
                     
@@ -303,12 +315,27 @@
             </div>
     </footer>
 
-     <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
     <script>
-        $('.owl-carousel').owlCarousel();
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            // margin:10,
+            autoWidth:true,
+            autoplay:true,
+            autoplayTimeout:5000,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
     </script>
-    <script src="./index.js"></script>
     
 </body>
 </html>
